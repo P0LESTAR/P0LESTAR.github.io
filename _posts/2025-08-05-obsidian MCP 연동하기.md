@@ -1,17 +1,20 @@
 ---
 title: Obsidian MCP 연동하기
-author: P0LESTAR
+#author: P0LESTAR
 date: 2025-08-05 20:55:00 +0800
 categories: [MCP]
 tags: [MCP, Obsidian]
 pin: true
+sitemap:
+  changefreq: weekly
+  priority: 0.5
 ---
 
 # Obsidian MCP🤖
 
-요즘 노션 대신 옵시디언이라는 노트 프로그램을 사용중입니다.
+요즘 노션 대신 옵시디언이라는 노트 프로그램을 사용 중입니다.
 
-옵시디언도 MCP를 지원한다길래 설치했습니다.
+옵시디언도 MCP를 지원한다길래 설치해 봤습니다.
 <br>
 
 ## 'MCP Tools' 플러그인
@@ -21,28 +24,28 @@ pin: true
 
 <br>
 
-## 필수 옵션 REST API
-설치 후 옵션을 부르면 디펜던시가 필요합니다.
+## 필수 옵션: REST API
+설치 후 옵션을 열면 디펜던시가 필요하다고 나옵니다.
 ![](https://velog.velcdn.com/images/backhoe/post/6e3243d5-8336-41f7-ad2e-8ff448da6ae7/image.png)
 
 ### 로컬 REST API가 필요한 이유
 옵시디언은 기본적으로 외부 프로그램이 접근할 수 없는 닫힌 시스템입니다. 
 MCP 도구들이 옵시디언 노트를 읽고 쓰려면 중간 다리 역할을 할 인터페이스가 필요합니다.
 
-> 옵시디언과 외부 도구 간의 안전한 통신 창구 역할
-HTTPS + API 키로 보안 제공
-노트 읽기/쓰기/검색 등의 표준화된 인터페이스 제공
+> - 옵시디언과 외부 도구 간의 안전한 통신 창구 역할
+> - HTTPS + API 키로 보안 제공
+> - 노트 읽기/쓰기/검색 등의 표준화된 인터페이스 제공
 
 
-이것도 커뮤니티 플러그인에서 설치하면 돼요
+이것도 커뮤니티 플러그인에서 설치하면 됩니다.
 
 ![](https://velog.velcdn.com/images/backhoe/post/e130c645-f786-4262-b740-8c44452e7cff/image.png)
 
-두 플러그인 모두 활성화 해주세요.
+두 플러그인 모두 활성화해 주세요.
 <br>
 
 ## config.json
-install 버튼을 누르면 config.json에 자동으로 추가해줍니다.
+Install 버튼을 누르면 config.json에 자동으로 추가해 줍니다.
 클로드를 재시작하면 MCP로 연동됩니다.
 ![](https://velog.velcdn.com/images/backhoe/post/d41bb23d-8d4d-44d5-bd8e-930a66cbcf0f/image.png)
 <br>
@@ -81,10 +84,9 @@ fetch: 웹 페이지 내용 가져오기
 
 ---
 
-저는 PARA 노트 정리법을 사용해보고 있는데, MCP로 자동업로드 등을 사용할때 접근성을 높이기 위해 Claude폴더를 따로 추가해서 사용해보려고 합니다.
+저는 PARA 노트 정리법을 사용해 보고 있는데, MCP로 자동 업로드 등을 사용할 때 접근성을 높이기 위해 Claude 폴더를 따로 추가해서 사용해 보려고 합니다.
 
-Claude가 조회하거나 추가할때 빨리하라는 의미도 있지만, 제가 찾기 쉬우려고 그렇게 했습니다
-
+Claude가 조회하거나 추가할 때 빠르게 처리하라는 의미도 있지만, 제가 찾기 쉽게 하려고 그렇게 했습니다.
 
 
 [nodejs]: https://nodejs.org/
