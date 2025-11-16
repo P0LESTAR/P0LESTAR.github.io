@@ -1,5 +1,5 @@
 ---
-title: "AI한테 해킹 시켜봤습니다 - XSS Agent 개발 #1"
+title: "[XSS Agent 개발 #1] AI한테 ctf 풀려봤습니다"
 #author: P0LESTAR
 date: 2025-11-16 00:01:01 +0800
 categories: [AI]
@@ -136,4 +136,4 @@ sitemap:
   - Xss 테스트 케이스 부족
 
 ## 예시
-![image](https://github.com/user-attachments/assets/703e0146-12e5-4bf9-9777-c494fa5d63b7")
+![image](https://velog.velcdn.com/images/backhoe/post/28130e35-0f22-4802-ac4c-3187b0434a6c/image.png)
