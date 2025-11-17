@@ -10,7 +10,7 @@ sitemap:
   priority: 0.5
 ---
 
-# 1. 프로젝트 동기
+## 1. 프로젝트 동기
 최근 HackerOne에서 만든 Xbow 에이전트를 봤습니다.
 <https://xbow.com/blog/top-1-how-xbow-did-it>
 
@@ -25,7 +25,7 @@ sitemap:
 
 
 
-# 2. 기술 스택
+## 2. 기술 스택
 2.1 **LangChain** - 에이전트 프레임워크
 
   - ReAct 패턴 구현이 간단
@@ -74,9 +74,9 @@ sitemap:
   └─────────────────────────┘
   ```
 
-# 3. 프로젝트 아키텍처
+## 3. 프로젝트 아키텍처
 
-  3.1 White-box vs Black-box 자동 감지
+  3.1 **White-box, Black-box에 따른 프롬프트 및 도구 구분**
 
   실전 CTF는 소스 코드가 주어지는 경우도 있고, 아닌 경우도 있습니다.
   이 에이전트는 ctf-sources/ 폴더를 확인해서 자동으로 모드를 전환합니다.
@@ -102,7 +102,7 @@ sitemap:
   ```
 
   ---
-  3.2 에이전트의 도구 (Tools)
+  3.2 **에이전트의 도구 (Tools)**
 
   에이전트는 6가지 도구를 사용해서 XSS를 탐지합니다.
 ```
@@ -119,7 +119,7 @@ sitemap:
   동작 방식:
   에이전트가 상황에 맞는 도구를 선택 → 실행 → 결과 관찰 → 다음 전략 결정
 
-# 4. 현재 구현 상태 & 로드맵
+## 4. 현재 구현 상태 & 로드맵
 
   ✅ 완료된 기능
   - White-box/Black-box 모드
@@ -135,5 +135,5 @@ sitemap:
     - 여러 모델 테스트 필요
   - Xss 테스트 케이스 부족
 
-## 예시
+### 예시
 ![image](https://velog.velcdn.com/images/backhoe/post/28130e35-0f22-4802-ac4c-3187b0434a6c/image.png)
