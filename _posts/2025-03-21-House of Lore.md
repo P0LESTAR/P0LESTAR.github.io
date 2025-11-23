@@ -4,7 +4,7 @@ title: House of Lore
 date: 2025-03-21 20:56:00 +0800
 categories: [Linux heap]
 tags: [pwnable, heap]
-pin: true
+#pin: true
 sitemap:
   changefreq: monthly
   priority: 0.3

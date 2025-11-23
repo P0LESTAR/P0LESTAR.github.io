@@ -4,7 +4,7 @@ title: House of force
 date: 2025-03-20 20:55:00 +0800
 categories: [Linux heap]
 tags: [pwnable, heap]
-pin: true
+#pin: true
 sitemap:
   changefreq: monthly
   priority: 0.3

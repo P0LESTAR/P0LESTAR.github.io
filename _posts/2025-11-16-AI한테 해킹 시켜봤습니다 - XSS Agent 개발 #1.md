@@ -4,7 +4,7 @@ title: "[XSS Agent 개발 #1] AI한테 ctf 풀려봤습니다"
 date: 2025-11-16 00:01:01 +0800
 categories: [AI]
 tags: [AI, Langchain, XSS]
-pin: true
+#pin: true
 sitemap:
   changefreq: weekly
   priority: 0.5

@@ -4,7 +4,7 @@ title: House of Einherjar
 date: 2025-03-21 20:58:00 +0800
 categories: [Linux heap]
 tags: [pwnable, heap]
-pin: true
+#pin: true
 sitemap:
   changefreq: monthly
   priority: 0.3
