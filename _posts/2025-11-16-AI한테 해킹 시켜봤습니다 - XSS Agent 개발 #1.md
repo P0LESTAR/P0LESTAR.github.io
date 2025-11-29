@@ -6,8 +6,9 @@ categories: [AI]
 tags: [AI, Langchain, XSS]
 #pin: true
 sitemap:
-  changefreq: weekly
-  priority: 0.5
+  changefreq: monthly
+  priority: 0.1
+published: false
 ---
 
 ## 1. 프로젝트 동기
