@@ -1,6 +1,6 @@
 ---
 title: Obsidian MCP 연동하기
-#author: P0LESTAR
+author: P0LESTAR
 date: 2025-08-05 20:55:00 +0800
 categories: [MCP]
 tags: [MCP, Obsidian]

@@ -1,6 +1,6 @@
 ---
 title: House of Lore
-#author: P0LESTAR
+author: P0LESTAR
 date: 2025-03-21 20:56:00 +0800
 categories: [Linux heap]
 tags: [pwnable, heap]

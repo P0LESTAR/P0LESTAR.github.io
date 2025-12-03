@@ -1,6 +1,6 @@
 ---
 title: Posion Null Byte
-#author: P0LESTAR
+author: P0LESTAR
 date: 2025-03-21 20:57:00 +0800
 categories: [Linux heap]
 tags: [pwnable, heap]

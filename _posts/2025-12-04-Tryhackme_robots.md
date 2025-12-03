@@ -1,6 +1,6 @@
 ---
 title: '[TryHackme] Robots'
-#author: P0LESTAR
+author: P0LESTAR
 date: 2025-12-04 00:01:01 +0800
 categories: [Webhacking]
 tags: [tryhackme, wargame]

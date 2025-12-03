@@ -1,6 +1,6 @@
 ---
 title: House of spirit
-#author: P0LESTAR
+author: P0LESTAR
 date: 2025-03-22 20:55:00 +0800
 categories: [Linux heap]
 tags: [pwnable, heap]
