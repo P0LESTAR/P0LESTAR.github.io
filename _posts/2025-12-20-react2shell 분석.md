@@ -1,5 +1,5 @@
 ---
-title: React2Shell 분석 (1/2)
+title: React2Shell 분석 (1/3)
 author: P0LESTAR
 date: 2025-12-20 00:01:01 +0800
 categories: [CVE, 1-day분석]
