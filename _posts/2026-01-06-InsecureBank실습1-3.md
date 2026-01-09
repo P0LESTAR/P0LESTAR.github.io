@@ -8,8 +8,7 @@ tags: [MobileHacking, Android, 인시큐어뱅크 실습]
 sitemap:
   changefreq: monthly
   priority: 0.1
-image:
-  path: assets\img\Android.png
+
 ---
 
 >『안드로이드 모바일 앱 모의해킹』을 참고해 금융권 앱을 모델로 가상으로 제작된 ‘인시큐어뱅크’ 앱으로 취약점 항목별로 실습을 했습니다.
@@ -204,13 +203,13 @@ adb shell am start com.android.insecurebankv2/com.android.insecurebankv2.WrongLo
 
 ### 3.2 취약점 진단 과정
 
-![Desktop View](/assets\img\3.2로그인화면.png){: .w-25 .right}
+![Desktop View](../assets/img/insecurebank실습\3.2로그인화면.png){: .w-25 .right}
 - 인시큐어뱅크의 로그인 화면에서 `Autofill Credentials` 버튼을 누르면 마지막으로 로그인했던 아이디와 비밀번호를 자동으로 불러와 로그인할 수 있다.
 
 - 자동으로 불러온 계정 정보는 앱의 내부에 저장되어 있을 것이다.
 - 이 정보를 찾기 위해 앱의 데이터가 저장되는 곳으로 이동해본다.
 
-![Desktop View](/assets\img\3.2진단.png){: width=500 }
+![Desktop View](../assets/img/insecurebank실습\3.2진단.png){: width=500 }
 
 - `mySharedPreferences.xml` 파일과 `com.android.insecurebankv2_preferences.xml` 파일이 있다.
 
@@ -276,11 +275,11 @@ public String aesEncryptedString(String theString)
 
 >아이디: dinesh
 
-![Desktop View](/assets\img\3.2Base64디코딩.png){: width="500" }
+![Desktop View](../assets/img/insecurebank실습\3.2Base64디코딩.png){: width="500" }
 
 > 비밀번호: Dinesh@123$
 
-![Desktop View](/assets\img\3.2AES복호화.png){: width="500" }
+![Desktop View](../assets/img/insecurebank실습\3.2AES복호화.png){: width="500" }
 
 
 ### 3.3 취약점 대응 방안
