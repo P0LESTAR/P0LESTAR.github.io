@@ -110,7 +110,7 @@ public class CryptoClass {
 2. 서명 검증 (Signature Verification)
 패칭된 앱은 공격자의 키로 다시 서명(Re-sign)되어야만 설치됩니다. 앱 내부 코드에서 **현재 앱의 서명 값(Signing Certificate)** 이 개발자의 원본 서명 값과 일치하는지 확인한다.
 
-```Java
+```java
 // 예시 로직: 현재 앱의 서명이 미리 정의된 원본 서명과 다르면 종료
 if (!currentSignature.equals(ORIGINAL_SIGNATURE)) {
     System.exit(0);
